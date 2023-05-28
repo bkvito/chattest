@@ -1,2 +1,0 @@
-[build]
-command = "curl https://www.python.org/ftp/python/3.9.0/Python-3.9.0.tar.xz | tar xJf - && cd Python-3.9.0 && ./configure --enable-optimizations && make -j4 && make altinstall && pip3 install -r requirements.txt && python3 app.py"
